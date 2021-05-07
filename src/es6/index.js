@@ -14,4 +14,11 @@ console.log(epicPhrase);
 let epicPhrase2 = `${hello} si es ecma ${world}`
 console.log(epicPhrase2);
 
+//multilinea
+let lorem = `frase
+epica con enter
+asas das as`
+console.log(lorem);
+
+
 
