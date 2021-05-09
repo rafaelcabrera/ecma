@@ -40,3 +40,30 @@ let obj = {
 console.log(` ${obj}`);
 let obj2 = {nombre , edad}
 console.log(obj2);
+// por que cuando imprimo ${obj} no me lo imprime
+
+
+
+/* Arrow Functions */
+const names  = [{name: 'Rafa', age: 30 },
+                {name: 'Alejandro', age: 20}
+            ]
+
+
+let listOfNames = names.map(function(item){ // de esta forma estabamos pasando una funcion anonima
+    console.log(item.name)
+}) 
+
+let listOfNames2 = names.map(item => console.log(item.name));
+
+
+// const listOfNames3 = (name , ages , country ) => {...}
+
+const listOfNames4 = name => {}
+
+const square = num => num*num; //no return ni bloque de llaves
+
+
+
+
+
