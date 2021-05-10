@@ -54,7 +54,7 @@ const data= {
     back: 'Rel'
 }
 
-
+-------------------------------
 ES9
 
 spread operator ...
@@ -62,3 +62,6 @@ spread operator ...
 propagation proterties
 
 promise finally
+-------------------------------
+ES10
+
